@@ -1,6 +1,7 @@
+/** index head **/
 .index-head {
     height: 64px;
-    background-color: #21304F;
+    background-color: #000;
 }
 
 .index-git {
@@ -30,7 +31,9 @@
     padding: 72px 24px;
     box-sizing: border-box;
     overflow: hidden;
-    background-color: #21304F;
+    background-image: url(img/gztop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .index-header-h1 {
@@ -92,6 +95,148 @@
     background-color: #ffffff;
 }
 
+.mdl-button--raised.mdl-button--colored {
+    background: #448aff;
+}
+
 .mdl-button--raised.mdl-button--colored:hover{
     background-color: #335B91;
+}
+
+/** 内容模块样式 **/
+.ui.vertical.stripe {
+    padding: 8em 0em;
+}
+.ui.very.relaxed.grid.container {
+    width: calc(1127px + 5rem)!important;
+}
+.ui[class*="center aligned"].grid {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.ui[class*="center aligned"].container {
+    text-align: center;
+}
+
+.ui.grid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    padding: 0;
+    margin: -1rem;
+}
+.ui.container {
+    width: 1127px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.ui.container {
+    display: block;
+    max-width: 100%!important;
+}
+
+.ui.vertical.segment {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid rgba(34,36,38,.15);
+}
+
+.ui.text.container {
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    max-width: 700px!important;
+    line-height: 1.5;
+    font-size: 1.14285714rem;
+}
+
+.ui.container {
+    width: 1127px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+.ui.vertical.stripe h3 {
+    font-size: 2em;
+}
+
+.ui.header {
+    border: none;
+    margin: calc(2rem - .14285em) 0 1rem;
+    padding: 0;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 1.2857em;
+    text-transform: none;
+    color: rgba(0,0,0,.87);
+}
+
+.ui.vertical.stripe p {
+    font-size: 1.33em;
+}
+
+.ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em;
+}
+
+.ui.horizontal.divider:before {
+    background-position: right 1em top 50%;
+}
+.ui.horizontal.divider:after, .ui.horizontal.divider:before {
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 50%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABaAAAAACCAYAAACuTHuKAAAAGXRFW…GBJQby/mUcJn5sJXQmOQMAAAAAAJqt+2prAAAAAACg2xdgANk6BEVuJgyMAAAAAElFTkSuQmCC);
+}
+
+a {
+    background: 0 0;
+    color: #4183c4;
+    text-decoration: none;
+}
+
+.ui.horizontal.divider {
+    display: table;
+    white-space: nowrap;
+    height: auto;
+    overflow: hidden;
+    line-height: 1;
+    text-align: center;
+}
+h4.ui.header {
+    font-size: 1.071rem;
+}
+
+.ui.horizontal.divider:after {
+    background-position: left 1em top 50%;
+}
+.ui.horizontal.divider:after, .ui.horizontal.divider:before {
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 50%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABaAAAAACCAYAAACuTHuKAAAAGXRFW…GBJQby/mUcJn5sJXQmOQMAAAAAAJqt+2prAAAAAACg2xdgANk6BEVuJgyMAAAAAElFTkSuQmCC);
 }
