@@ -19,18 +19,6 @@
                 <i class="fa fa-github fa-2x"></i>
             </a>
         </div>
-        <div class="index-header-content">
-            <div class="index-header-h1">
-                <h1>Neptune</h1>
-                <h2>
-                    <span>Operate better and faster!</span>
-                </h2>
-                    <!-- Raised button with ripple -->
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
-                        开始旅程
-                    </button>
-            </div>
-
     </header>
     <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">Title</span>
@@ -42,6 +30,19 @@
         </nav>
     </div>
     <main class="mdl-layout__content">
-        <div class="page-content" style="height:1200px"></div>
+        <div class="page-content" style="height:1200px">
+            <div class="index-header-content">
+                <div class="index-header-h1">
+                    <h1>Neptune</h1>
+                    <h2>
+                        <span>Operate better and faster!</span>
+                    </h2>
+                    <!-- Raised button with ripple -->
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored">
+                        开始旅程
+                    </button>
+                </div>
+            </div>
+        </div>
     </main>
 </div>
